@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: gold;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: gold;
+    padding: 8px 16px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+.main-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.kobe-info {
+    color: gold;
+    max-width: 1200px;
+}
+
+.kobe-info h1 {
+    max-width: 600px;
+    font-size: 3rem;
+}
+
+.kobe-info p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.kobe-img {
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+
+img {
+    max-width: 750px;
+    position: absolute;
+    top: -250px;
+}
